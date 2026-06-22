@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540">
-<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#111"/><stop offset="1" stop-color="#222"/></linearGradient></defs>
-<rect width="900" height="540" fill="url(#g)"/>
-<rect x="35" y="35" width="830" height="470" fill="none" stroke="#444"/>
-<text x="60" y="260" fill="#f2f2f2" font-family="Georgia,serif" font-size="44">Insecticides India</text>
-<text x="60" y="315" fill="#aaa" font-family="Arial,sans-serif" font-size="20">Client / Collaboration</text>
-</svg>
