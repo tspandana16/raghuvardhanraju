@@ -79,16 +79,17 @@ h2{font-size:clamp(34px,5vw,72px);font-weight:400;margin:8px 0;text-transform:up
 }
 
 .carousel {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
+    position: relative;
+    width: 100%;
+    min-height: 300px; /* temporary for testing */
 }
 
 .carousel img {
-  width: 100%;
-  display: none;
+    width: 100%;
+    display: none;
+    object-fit: cover;
 }
 
-.carousel img.active {
-  display: block;
+.carousel img:first-child {
+    display: block;
 }
