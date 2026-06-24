@@ -77,3 +77,37 @@ h2{font-size:clamp(34px,5vw,72px);font-weight:400;margin:8px 0;text-transform:up
   .client-grid{grid-template-columns:repeat(2,1fr)}
   h1{letter-spacing:4px}
 }
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel img {
+  width: 100%;
+  display: none;
+  border-radius: 4px;
+}
+
+.carousel img.active {
+  display: block;
+}
+
+.carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
