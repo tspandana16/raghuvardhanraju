@@ -3122,48 +3122,5 @@ h6 {
 }
 /* End Footer Area css
 
-/* css for new theme
-============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/* Gallery Area css
-============================================================================================ */
-
-.carousel {
-  position: relative;
-  overflow: hidden;
-}
-
-.carousel img {
-  width: 100%;
-  display: none;
-  border-radius: 4px;
-}
-
-.carousel img.active {
-  display: block;
-}
-
-.carousel button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(0,0,0,0.5);
-  color: white;
-  border: none;
-  padding: 8px 12px;
-  cursor: pointer;
-}
-
-.prev {
-  left: 10px;
-}
-
-.next {
-  right: 10px;
-}
-============================================================================================ */
-/*---------------------------------------------------- */
-
 /*# sourceMappingURL=style.css.map */
 
